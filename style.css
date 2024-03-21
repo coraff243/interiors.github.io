@@ -86,7 +86,101 @@ background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(backgro
     background-size: cover;
     background-position: center;
 }
+/*navbar
+nav{
+  position: fixed;
+  background: #3c3c44;
+  height: 70px;
+  width: 100%;
 
+}
+label.logo{
+  color:wheat;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+  color: wheat;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a:hover{
+font-weight:900;
+color: wheat;
+  transition: .5s;
+  text-decoration: underline;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+ 
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 27px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+    color: wheat;
+    }
+
+  ul{
+ 
+
+    text-align:right;
+    transition: all .5s;
+  }
+  nav{
+    display: flex;
+   
+    background:#ccc;
+ 
+  }
+  nav ul li{
+
+text-align: right;
+
+  }
+  nav ul li a{
+    font-size: 15px;
+    text-align: right;
+  }
+  a:hover{
+    background: none;
+    text-decoration: underline;
+    
+  }
+  
+}
+*/
 .content{
     width: 100%;
 position:absolute;
@@ -213,7 +307,11 @@ gap:10px;
 .clientReviews{
     width: 100%;
     height: 100%;
-   background-color:  #D5DBDB; 
+   background-color:  #D5DBDB; /*
+    padding:2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #2E4053 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;*/
     family{
         background-image:url(family.jpg) ;
         background-size: cover;

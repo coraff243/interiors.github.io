@@ -19,6 +19,8 @@ background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(backgro
 }
 /*navbar*/
 nav{
+position: fixed;
+ background: #3c3c44;
   height: 80px;
   width: 100%;
 }

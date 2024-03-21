@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   
-    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+ 
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Nirvana Home Interiors
     </title>
@@ -15,20 +17,34 @@
 
     <div class="banner">
       <nav>
-        <!--<input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-        <i class="fa fa-bars"></i>-->
-        </label>
-        <label class="logo">Nirvana</label>
-        <ul>
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Services">Services</a></li>
-          <li><a href="contacts.html">Contact</a></li>
-          
+        <div class="logo">
+            <h1>Nirvana</h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="contacts.html">Contact</a></li>
         </ul>
-      </nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <script>
+      let menuList = document.getElementById("menuList")
+      menuList.style.maxHeight = "0px";
 
+      function toggleMenu(){
+          if(menuList.style.maxHeight == "0px")
+          {
+              menuList.style.maxHeight = "300px";
+          }
+          else{
+              menuList.style.maxHeight = "0px";
+          }
+      }
+      
+  </script>
     </div>
          <div class="content">
           <span class="first">Nirvana Home Interiors</span><br><br>
@@ -100,6 +116,5 @@
 </footer>
   </body>
   </html>
-
 
 
